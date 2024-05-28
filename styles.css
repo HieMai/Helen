@@ -1,0 +1,171 @@
+
+*, ::before, ::after {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.banner {
+    background-color: #FFC800;
+    margin-bottom: 120px;
+}
+
+.applicant, .regular-img {
+    background-image: radial-gradient(circle, #31BDEC, #0174B8);
+    width: 80%;
+    margin: 30px;
+    max-height: 300px;
+    
+}
+
+.top-image {
+    width: 100%;
+}
+
+.normal-title {
+    color: #100169;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+.page-wrapper {
+    width: 100%;
+    min-height: 100%;
+    background-color: #F9F9FB;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    height: 63px;
+}
+
+.name {
+    width: 40%;
+    margin-left: 5%;
+    color:#100169;
+    font-size: 30pt;
+    text-align: right;
+}
+
+.downloads {
+    width: 60%;
+
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    float: left;
+    margin: auto;
+}
+
+a {
+    color: #F0F8FF;
+    text-decoration: underline;
+}
+
+.link-effect {
+    display: block;
+    margin: 20px;
+    background-color: #FFC800;
+    text-decoration: none;
+    color:#100169;
+    font-weight: 600;
+    font-size: 16pt;
+}
+
+.link-effect:hover {
+    text-decoration: underline;
+}
+
+.paragraphs {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    background-color: white;
+}
+
+#intro {
+    background-color: #100169;
+}
+
+.wide {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.wide-h1 {
+    margin-bottom: 40px;
+}
+
+#hero {
+    color: #F9F9FB;
+    margin: auto;
+    margin-left: 60px;
+}
+
+
+.wide-img, .wide-text {
+    width: 50%;
+}
+
+
+#main, #white-bg {
+    margin-top: 80px;
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#main {
+    background-color: #F0F8FF;
+
+}
+.narrow-text {
+    width: 50%;
+    display: flex;
+    margin: auto;
+ 
+}
+
+
+.text {
+    text-align: justify;
+    line-height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.powered {
+    background-color: white;
+}
+
+#end {
+    background-color: #EFEFF6;
+
+}
+
+#lighthouse {
+    max-height: 400px;
+}
+
+footer {
+    background-color: #100169;
+    color: #F0F8FF;
+}
